@@ -1,0 +1,31 @@
+.login-form {
+    width: 450px;
+}
+.login-form-forgot {
+    float: right;
+}
+
+.ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+.login-form-button {
+    border-color: #f582ae;
+    background-color: #f582ae;
+    width: 100%;
+}
+
+.login-form-button:hover {
+    border-color: #F79BBE;
+    background-color: #F79BBE;
+}
+
+.login-form-button:active {
+    border-color: #f582ae;
+    background-color: #F79BBE;
+}
+
+.login-container {
+    margin: auto;
+}
+

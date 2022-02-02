@@ -1,0 +1,12 @@
+﻿steps:
+
+# RESTORE AND PUBLISH ASP.NET 3.1 APPLICATION
+- name: 'mcr.microsoft.com/dotnet/sdk:3.1'
+  entrypoint: 'dotnet'
+  args: [ 'publish', '-c', 'Release' ]
+  dir: './MonitoringService/'
+
+# DEPLOY APPLICATION
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app','deploy','./MonitoringService/bin/Release/netcoreapp3.1/publish/app.yaml', '--verbosity=debug']
+timeout: '1200s'

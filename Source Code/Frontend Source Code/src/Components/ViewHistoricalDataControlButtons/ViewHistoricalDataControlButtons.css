@@ -1,0 +1,9 @@
+.icons {
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}

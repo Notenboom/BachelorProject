@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>e0c8ab63-4837-4244-a97b-02f20167eaf9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BetterHostedServices" Version="2.0.3" />
+    <PackageReference Include="Google.Apis.CloudIot.v1" Version="1.55.0.2468" />
+    <PackageReference Include="Google.Cloud.Diagnostics.AspNetCore" Version="4.2.0" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="2.4.0" />
+    <PackageReference Include="Google.Cloud.PubSub.V1" Version="2.7.0" />
+    <PackageReference Include="Google.Cloud.SecretManager.V1" Version="1.7.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RepoDb.PostgreSql" Version="1.1.4" />
+    <PackageReference Include="SCM.SwissArmyKnife" Version="1.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="app.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

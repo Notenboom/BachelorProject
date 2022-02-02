@@ -1,0 +1,35 @@
+.login_register {
+    height: 100vh;
+}
+.login_register .right_side {
+    background-color: #f3d2c1;
+}
+
+.login_register .left_side .text {
+    margin: 10vh 0vh 10vh 0vh;
+    padding: 20px 10px 10px 50px;
+    font-size: 1.5rem;
+    background-color: #f3d2c1;
+}
+
+.login_register .right_side .text {
+    margin: 5vh 0vh 5vh 0vh;
+    padding: 20px 10px 10px 50px;
+    font-size: 1.5rem;
+}
+
+.login_register .text h1 {
+    color: #001858;
+}
+
+.login_register .item {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.login_register .item {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}

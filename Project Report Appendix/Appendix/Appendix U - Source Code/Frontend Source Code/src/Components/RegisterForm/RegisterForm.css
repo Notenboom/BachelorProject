@@ -1,0 +1,23 @@
+.register-form {
+    width: 450px;
+}
+
+.register-form-button {
+    border-color: #f582ae;
+    background-color: #f582ae;
+    width: 100%;
+}
+
+.register-form-button:hover {
+    border-color: #F79BBE;
+    background-color: #F79BBE;
+}
+
+.register-form-button:active {
+    border-color: #F79BBE;
+    background-color: #F79BBE;
+}
+
+.error {
+    top: 10px; 
+}

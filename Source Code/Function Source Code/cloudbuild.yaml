@@ -1,0 +1,14 @@
+steps:
+  # RESTOR AND PUBLISH ASP.NET 3.1 APPLICATION
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - DATA_FORWARDED
+  - --region=europe-west3
+  - --source=.
+  - --entry-point=Functions.Function
+  - --trigger-topic=Telemetry
+  - --runtime=dotnet3
+  - --memory=128MB
